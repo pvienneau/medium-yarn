@@ -42,3 +42,5 @@
 6. [Using Bower with Yarn](https://bower.io/blog/2016/using-bower-with-yarn/)
 
 7. [npm3 Non-determinism](https://docs.npmjs.com/how-npm-works/npm3-nondet)
+
+8. [npm3 Dependency Resolution](https://docs.npmjs.com/how-npm-works/npm3)

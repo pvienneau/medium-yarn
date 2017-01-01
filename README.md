@@ -19,3 +19,5 @@
 2. [NPM vs Yarn Cheat Sheet](https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.g0kr8shvb)
 
 3. [Yarn Official Website](https://yarnpkg.com)
+
+4. [Example Yarn Package](https://github.com/yarnpkg/example-yarn-package)

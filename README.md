@@ -51,3 +51,5 @@
 7. [npm3 Non-determinism](https://docs.npmjs.com/how-npm-works/npm3-nondet)
 
 8. [npm3 Dependency Resolution](https://docs.npmjs.com/how-npm-works/npm3)
+
+9. [Intro to Yarn Package Manager](https://www.youtube.com/watch?v=7n467QmiANM)

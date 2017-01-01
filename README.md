@@ -21,5 +21,3 @@
 3. [Yarn Official Website](https://yarnpkg.com)
 
 4. [Example Yarn Package](https://github.com/yarnpkg/example-yarn-package)
-
-5. [Difference between Brew, Yarn and NPM](http://stackoverflow.com/questions/40396611/what-is-the-difference-between-brew-yarn-and-npm)

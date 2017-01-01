@@ -30,4 +30,4 @@
 
 4. [Example Yarn Package](https://github.com/yarnpkg/example-yarn-package)
 
-5. [Facebook Yarn vs NPM[(https://www.youtube.com/watch?v=hMk_9RjX5KE)
+5. [Video: Facebook Yarn vs NPM](https://www.youtube.com/watch?v=hMk_9RjX5KE)

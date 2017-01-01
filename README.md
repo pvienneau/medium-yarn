@@ -15,3 +15,5 @@
 ## Resources
 
 1. [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)
+
+2. [NPM vs Yarn Cheat Sheet](https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc#.g0kr8shvb)

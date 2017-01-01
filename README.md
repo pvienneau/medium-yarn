@@ -12,6 +12,14 @@
 
 > **(1.)** Compatibility with both the npm and bower workflows and supports mixing registries.
 
+## Speed
+
+> **(5.)** "Yarn seems to already map its calls to the npm registry prior to fetching the packages, so it can allow itself to submit requests in parallel, speeding up the fetching process."
+
+## Package caching
+
+> **(5.)** "Yarn caches the packages it fetches from the registry, meaning that subsequent installations of those packages don't require a second request to fetch the same packages. On one hand, this improves installation performances when installing packages into a project, while on the other hand, it allows you to install packages into your project while you're not connected to the internet, if that package is saved in Yarn's package cache."
+
 ## Resources
 
 1. [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)
@@ -21,3 +29,5 @@
 3. [Yarn Official Website](https://yarnpkg.com)
 
 4. [Example Yarn Package](https://github.com/yarnpkg/example-yarn-package)
+
+5. [Facebook Yarn vs NPM[(https://www.youtube.com/watch?v=hMk_9RjX5KE)

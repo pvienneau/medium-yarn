@@ -52,4 +52,6 @@
 
 8. [npm3 Dependency Resolution](https://docs.npmjs.com/how-npm-works/npm3)
 
-9. [Intro to Yarn Package Manager](https://www.youtube.com/watch?v=7n467QmiANM)
+9. [Video: Intro to Yarn Package Manager](https://www.youtube.com/watch?v=7n467QmiANM)
+
+10. [Video: In Depth Learning YARN by Facebook](https://www.youtube.com/watch?v=9ZxwISnnBOU)

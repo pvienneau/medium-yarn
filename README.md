@@ -20,6 +20,9 @@
 
 > **(5.)** "Yarn caches the packages it fetches from the registry, meaning that subsequent installations of those packages don't require a second request to fetch the same packages. On one hand, this improves installation performances when installing packages into a project, while on the other hand, it allows you to install packages into your project while you're not connected to the internet, if that package is saved in Yarn's package cache."
 
+## Deterministric
+> **(5.)** "Npm is inherently non-deterministic in the resulting `node_modules` folder package structure because your dependency tree is dependent on the installation order of your packages. The `yarn.lock` file produced when installing packages through Yarn is used as a manifest of the installation order of each package, along with which version has been installed. This allows for other environments setting up the same project to use this lock file as instructions as to what packages to install, to what version, and in what order." 
+
 ## Resources
 
 1. [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)

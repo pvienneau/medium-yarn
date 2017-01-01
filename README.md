@@ -8,6 +8,10 @@
 
 > Yarn resolves these issues around versioning and non-determinism by using lockfiles and an install algorithm that is deterministic and reliable. These lockfiles lock the installed dependencies to a specific version, and ensure that every install results in the exact same file structure in node_modules across all machines. The written lockfile uses a concise format with ordered keys to ensure that changes are minimal and review is simple.
 
+### Compatibility
+
+> **(1.)** Compatibility with both the npm and bower workflows and supports mixing registries.
+
 ## Resources
 
 1. [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)

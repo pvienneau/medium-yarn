@@ -32,6 +32,8 @@
 + Flat dependencies
 + post-pull commands through `package.json`? (Automatically running `yarn install` when we pull from the repository)
 
+>This: https://gist.github.com/sindresorhus/6465739
+
 ## Resources
 
 1. [Yarn: A new package manager for JavaScript](https://code.facebook.com/posts/1840075619545360)

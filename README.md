@@ -30,6 +30,13 @@
 ### Deterministric
 > **(5.)** Npm is inherently non-deterministic in the resulting `node_modules` folder package structure because your dependency tree is dependent on the installation order of your packages. The `yarn.lock` file produced when installing packages through Yarn is used as a manifest of the installation order of each package, along with which version has been installed. This allows for other environments setting up the same project to use this lock file as instructions as to what packages to install, to what version, and in what order.
 
+### Community Support
+
+> **(10.)** Has been already baked into Laravel
+
+
+> **(6.)** Celebrated by Bower.
+
 ## Things to look up
 
 + Flat dependencies

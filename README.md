@@ -12,6 +12,8 @@
 
 > **(1.)** Compatibility with both the npm and bower workflows and supports mixing registries.
 
+> **(5.)** "Yarn supports installing packages from both `package.json` and `bower.json`. As of October 2016, it does not support installation of packages from both source files at the same time, and the bower installation is still somewhat buggy, but it seems that the goal here is to be able to serve both package managers."
+
 ## Speed
 
 > **(5.)** "Yarn seems to already map its calls to the npm registry prior to fetching the packages, so it can allow itself to submit requests in parallel, speeding up the fetching process."

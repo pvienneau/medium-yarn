@@ -18,6 +18,12 @@
 
 > **(6.)** "**Important note**: As it stands right now there still seem to be some issues regarding Bower support. We are however confident that with the help of the community, these issues will be solved quickly as Yarn steps towards 1.0 in upcoming months."
 
+#### Install from Multiple Registries
+
+> **(11.)** Yarn offers you the ability to install JavaScript packages from multiple registries, such as npm, bower, your git repository, and even your local file system.
+
+> This is particularly helpful for developers who constantly publish JavaScript packages. You can use this to test your packages before publishing them to a registry.
+
 ### Speed
 
 > **(5.)** Yarn seems to already map its calls to the npm registry prior to fetching the packages, so it can allow itself to submit requests in parallel, speeding up the fetching process.

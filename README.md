@@ -91,3 +91,5 @@
 12. [Yarn vs npm: Everything You Need to Know](https://www.sitepoint.com/yarn-vs-npm/)
 
 13. [Semantic Versioning 2.0.0](http://semver.org/)
+
+14. [npm-shrinkwrap](https://docs.npmjs.com/cli/shrinkwrap)

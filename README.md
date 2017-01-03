@@ -12,6 +12,12 @@
 
 > **(11.)** The `yarn.lock` is similar to the composer.lock file that PHP developers are familiar with. The yarn.lock file locks down the exact versions of the packages that have been installed and all their dependencies. With this file, you can be certain that every member of your engineering team have the exact package versions installed and deployments can easily be reproduced without unexpected bugs.
 
+#### Package Version Confidence
+
+> **(12.)** In an ideal world of semantic versioning, patched releases won’t include any breaking changes. This, unfortunately, is not always true. The strategy employed by npm may result into two machines with the same package.json file, having different versions of a package installed, possibly introducing bugs.
+
+> To avoid package version mis-matches, an exact installed version is pinned down in a lock file. Every time a module is added, Yarn creates (or updates) a yarn.lock file. This way you can guarantee another machine installs the exact same package, while still having a range of allowed versions defined in package.json.
+
 ### Compatibility
 
 > **(1.)** "Compatibility with both the npm and bower workflows and supports mixing registries."

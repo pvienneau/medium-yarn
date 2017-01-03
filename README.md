@@ -14,7 +14,7 @@
 
 #### Package Version Confidence
 
-> **(12.)** In an ideal world of semantic versioning, patched releases won’t include any breaking changes. This, unfortunately, is not always true. The strategy employed by npm may result into two machines with the same package.json file, having different versions of a package installed, possibly introducing bugs.
+> **(12.)** In an ideal world of [semantic versioning](http://semver.org/), patched releases won’t include any breaking changes. This, unfortunately, is not always true. The strategy employed by npm may result into two machines with the same package.json file, having different versions of a package installed, possibly introducing bugs.
 
 > To avoid package version mis-matches, an exact installed version is pinned down in a lock file. Every time a module is added, Yarn creates (or updates) a yarn.lock file. This way you can guarantee another machine installs the exact same package, while still having a range of allowed versions defined in package.json.
 

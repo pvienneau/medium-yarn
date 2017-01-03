@@ -30,6 +30,10 @@
 
 > **(5.)** Yarn seems to already map its calls to the npm registry prior to fetching the packages, so it can allow itself to submit requests in parallel, speeding up the fetching process.
 
+> **(11.)** Yarn efficiently queues up requests and avoids request waterfalls to maximize network utilization. It starts by making requests to the registry and recursively looking up each dependency. Next, it looks in a global cache directory to see whether the package has been downloaded before. If it hasn't, Yarn fetches the tarball package and places it in the global cache to enable it to work offline and eliminate the need to re-download.
+
+> During install, Yarn parallelizes operations, which makes the install process faster.
+
 ### Package caching
 
 > **(5.)** Yarn caches the packages it fetches from the registry, meaning that subsequent installations of those packages don't require a second request to fetch the same packages. On one hand, this improves installation performances when installing packages into a project, while on the other hand, it allows you to install packages into your project while you're not connected to the internet, if that package is saved in Yarn's package cache.

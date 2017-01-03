@@ -18,6 +18,8 @@
 
 > To avoid package version mis-matches, an exact installed version is pinned down in a lock file. Every time a module is added, Yarn creates (or updates) a yarn.lock file. This way you can guarantee another machine installs the exact same package, while still having a range of allowed versions defined in package.json.
 
+> In npm, the npm shrinkwrap command generates a lock file as well, and npm install reads that file before reading package.json, much like how Yarn reads yarn.lock first. The important difference here is that Yarn always creates and updates yarn.lock, while npm doesn’t create one by default and only updates npm-shrinkwrap.json when it exists.
+
 ### Compatibility
 
 > **(1.)** "Compatibility with both the npm and bower workflows and supports mixing registries."

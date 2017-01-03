@@ -63,3 +63,5 @@
 9. [Video: Intro to Yarn Package Manager](https://www.youtube.com/watch?v=7n467QmiANM)
 
 10. [Video: In Depth Learning YARN by Facebook](https://www.youtube.com/watch?v=9ZxwISnnBOU)
+
+11. [5 Things You can do with Yarn](https://auth0.com/blog/five-things-you-can-do-with-yarn/)

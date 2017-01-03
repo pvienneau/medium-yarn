@@ -24,6 +24,8 @@
 
 > This is particularly helpful for developers who constantly publish JavaScript packages. You can use this to test your packages before publishing them to a registry.
 
+> _See **(11.)** for installation examples._
+
 ### Speed
 
 > **(5.)** Yarn seems to already map its calls to the npm registry prior to fetching the packages, so it can allow itself to submit requests in parallel, speeding up the fetching process.

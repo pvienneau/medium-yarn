@@ -79,3 +79,5 @@
 10. [Video: In Depth Learning YARN by Facebook](https://www.youtube.com/watch?v=9ZxwISnnBOU)
 
 11. [5 Things You can do with Yarn](https://auth0.com/blog/five-things-you-can-do-with-yarn/)
+
+12. [Yarn vs npm: Everything You Need to Know](https://www.sitepoint.com/yarn-vs-npm/)
